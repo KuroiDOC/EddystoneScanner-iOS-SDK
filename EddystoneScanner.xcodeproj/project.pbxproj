@@ -143,8 +143,8 @@
 		2837EA0A1FFE0434007F3D81 = {
 			isa = PBXGroup;
 			children = (
-				2837EA161FFE0434007F3D81 /* EddystoneScanner */,
-				2837EA211FFE0434007F3D81 /* EddystoneScannerTests */,
+				334AA69625F7E28900BD2BE5 /* Sources */,
+				334AA69725F7E29B00BD2BE5 /* Tests */,
 				2837EA451FFE0696007F3D81 /* SampleApp */,
 				2837EA151FFE0434007F3D81 /* Products */,
 			);
@@ -206,6 +206,22 @@
 				2822368B200B6FED0028E97F /* Util.swift */,
 			);
 			path = EddystoneRFC;
+			sourceTree = "<group>";
+		};
+		334AA69625F7E28900BD2BE5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2837EA161FFE0434007F3D81 /* EddystoneScanner */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		334AA69725F7E29B00BD2BE5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2837EA211FFE0434007F3D81 /* EddystoneScannerTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		5426861C203EB209004BF234 /* RSSIFilters */ = {
@@ -591,7 +607,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EddystoneScanner/Info.plist;
+				INFOPLIST_FILE = Sources/EddystoneScanner/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -619,7 +635,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = EddystoneScanner/Info.plist;
+				INFOPLIST_FILE = Sources/EddystoneScanner/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -640,7 +656,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44VN4BY3TF;
-				INFOPLIST_FILE = EddystoneScannerTests/Info.plist;
+				INFOPLIST_FILE = Tests/EddystoneScannerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobstac.EddystoneScannerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -657,7 +673,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44VN4BY3TF;
-				INFOPLIST_FILE = EddystoneScannerTests/Info.plist;
+				INFOPLIST_FILE = Tests/EddystoneScannerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobstac.EddystoneScannerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
